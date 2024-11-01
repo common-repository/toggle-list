@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'fa-right-open';
+  src: url("../font/fa-right-open.eot?15515262");
+  src: url("../font/fa-right-open.eot?15515262#iefix") format("embedded-opentype"), url("../font/fa-right-open.woff?15515262") format("woff"), url("../font/fa-right-open.ttf?15515262") format("truetype"), url("../font/fa-right-open.svg?15515262#fa-right-open") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.toggler.fa-right-open {
+  display: inline-block;
+  margin-left: -.4em;
+  cursor: pointer;
+}
+.toggler.fa-right-open:before {
+  font-family: "fa-right-open";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+
+  content: '\e800';
+  transition: all .2s ease;
+  width: 1em;
+  margin-left: -1em;
+  margin-right: .4em;
+  transform: rotate(90deg);
+  
+}
+.toggler.fa-right-open.closed:before {
+  transform: rotate(0deg);
+}
+.simpletree ul {
+  list-style-type: none;
+}
+.simpletree li {
+  padding-left: 1.4em;
+}
+.simpletree ul ul {
+  margin-left: 1em;
+}
